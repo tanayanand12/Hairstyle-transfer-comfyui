@@ -1,0 +1,137 @@
+** ComfyUI startup time: 2024-04-18 11:00:15.490948
+[2024-04-18 11:00] ** Platform: Windows
+[2024-04-18 11:00] ** Python version: 3.11.8 (tags/v3.11.8:db85d51, Feb  6 2024, 22:03:32) [MSC v.1937 64 bit (AMD64)]
+[2024-04-18 11:00] ** Python executable: D:\learning\python learner\keshcutai\ComfyUI__main\ComfyUI_windows_portable\python_embeded\python.exe
+[2024-04-18 11:00] ** Log path: D:\learning\python learner\keshcutai\ComfyUI__main\ComfyUI_windows_portable\comfyui.log
+[2024-04-18 11:00] 
+Prestartup times for custom nodes:
+[2024-04-18 11:00]    0.2 seconds: D:\learning\python learner\keshcutai\ComfyUI__main\ComfyUI_windows_portable\ComfyUI\custom_nodes\ComfyUI-Manager
+[2024-04-18 11:00] 
+Total VRAM 4096 MB, total RAM 32125 MB
+[2024-04-18 11:00] Trying to enable lowvram mode because your GPU seems to have 4GB or less. If you don't want this use: --normalvram
+[2024-04-18 11:00] Set vram state to: LOW_VRAM
+[2024-04-18 11:00] Device: cuda:0 NVIDIA GeForce GTX 1650 : native
+[2024-04-18 11:00] VAE dtype: torch.float32
+[2024-04-18 11:00] Using pytorch cross attention
+[2024-04-18 11:00] ### Loading: ComfyUI-Manager (V2.16.1)
+[2024-04-18 11:00] ### ComfyUI Revision: 2119 [30abc324] | Released on '2024-04-08'
+[2024-04-18 11:00] 
+Import times for custom nodes:
+[2024-04-18 11:00]    0.0 seconds: D:\learning\python learner\keshcutai\ComfyUI__main\ComfyUI_windows_portable\ComfyUI\custom_nodes\websocket_image_save.py
+[2024-04-18 11:00]    0.0 seconds: D:\learning\python learner\keshcutai\ComfyUI__main\ComfyUI_windows_portable\ComfyUI\custom_nodes\Derfuu_ComfyUI_ModdedNodes
+[2024-04-18 11:00]    0.0 seconds: D:\learning\python learner\keshcutai\ComfyUI__main\ComfyUI_windows_portable\ComfyUI\custom_nodes\efficiency-nodes-comfyui
+[2024-04-18 11:00]    0.4 seconds: D:\learning\python learner\keshcutai\ComfyUI__main\ComfyUI_windows_portable\ComfyUI\custom_nodes\ComfyUI-Manager
+[2024-04-18 11:00] 
+[2024-04-18 11:00] Starting server
+
+[2024-04-18 11:00] To see the GUI go to: http://127.0.0.1:8188
+[2024-04-18 11:00] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/model-list.json
+[2024-04-18 11:00] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json
+[2024-04-18 11:00] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json
+[2024-04-18 11:00] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/alter-list.json
+[2024-04-18 11:00] FETCH DATA from: D:\learning\python learner\keshcutai\ComfyUI__main\ComfyUI_windows_portable\ComfyUI\custom_nodes\ComfyUI-Manager\extension-node-map.json
+[2024-04-18 11:01] got prompt
+[2024-04-18 11:01] model_type EPS
+[2024-04-18 11:01] Using pytorch attention in VAE
+[2024-04-18 11:01] Using pytorch attention in VAE
+[2024-04-18 11:01] clip missing: ['clip_l.logit_scale', 'clip_l.transformer.text_projection.weight']
+[2024-04-18 11:01] Requested to load SD1ClipModel
+[2024-04-18 11:01] Loading 1 new model
+[2024-04-18 11:01] Requested to load AutoencoderKL
+[2024-04-18 11:01] Loading 1 new model
+[2024-04-18 11:01] D:\learning\python learner\keshcutai\ComfyUI__main\ComfyUI_windows_portable\ComfyUI\comfy\ldm\modules\diffusionmodules\model.py:236: UserWarning: 1Torch was not compiled with flash attention. (Triggered internally at ..\aten\src\ATen\native\transformers\cuda\sdp_utils.cpp:263.)
+  out = torch.nn.functional.scaled_dot_product_attention(q, k, v, attn_mask=None, dropout_p=0.0, is_causal=False)
+[2024-04-18 11:01] Requested to load BaseModel
+[2024-04-18 11:01] Loading 1 new model
+[2024-04-18 11:02] 100%|██████████████████████████████████████████████████████████████████████████████████| 40/40 [01:01<00:00,  1.54s/it]100%|██████████████████████████████████████████████████████████████████████████████████| 40/40 [01:01<00:00,  1.53s/it]
+[2024-04-18 11:02] Requested to load AutoencoderKL
+[2024-04-18 11:02] Loading 1 new model
+[2024-04-18 11:02] Requested to load BaseModel
+[2024-04-18 11:02] Loading 1 new model
+[2024-04-18 11:03] 100%|██████████████████████████████████████████████████████████████████████████████████| 50/50 [01:17<00:00,  1.56s/it]100%|██████████████████████████████████████████████████████████████████████████████████| 50/50 [01:17<00:00,  1.55s/it]
+[2024-04-18 11:03] Requested to load AutoencoderKL
+[2024-04-18 11:03] Loading 1 new model
+[2024-04-18 11:03] Prompt executed in 149.19 seconds
+[2024-04-18 11:08] got prompt
+[2024-04-18 11:08] Requested to load BaseModel
+[2024-04-18 11:08] Loading 1 new model
+[2024-04-18 11:09] 100%|██████████████████████████████████████████████████████████████████████████████████| 40/40 [01:01<00:00,  1.54s/it]100%|██████████████████████████████████████████████████████████████████████████████████| 40/40 [01:01<00:00,  1.53s/it]
+[2024-04-18 11:09] Requested to load AutoencoderKL
+[2024-04-18 11:09] Loading 1 new model
+[2024-04-18 11:09] Requested to load BaseModel
+[2024-04-18 11:09] Loading 1 new model
+[2024-04-18 11:11] 100%|██████████████████████████████████████████████████████████████████████████████████| 50/50 [01:17<00:00,  1.56s/it]100%|██████████████████████████████████████████████████████████████████████████████████| 50/50 [01:17<00:00,  1.55s/it]
+[2024-04-18 11:11] Requested to load AutoencoderKL
+[2024-04-18 11:11] Loading 1 new model
+[2024-04-18 11:11] Prompt executed in 146.37 seconds
+[2024-04-18 11:20] got prompt
+[2024-04-18 11:20] Requested to load BaseModel
+[2024-04-18 11:20] Loading 1 new model
+[2024-04-18 11:21] 100%|██████████████████████████████████████████████████████████████████████████████████| 40/40 [01:01<00:00,  1.54s/it]100%|██████████████████████████████████████████████████████████████████████████████████| 40/40 [01:01<00:00,  1.53s/it]
+[2024-04-18 11:21] Requested to load AutoencoderKL
+[2024-04-18 11:21] Loading 1 new model
+[2024-04-18 11:21] Requested to load BaseModel
+[2024-04-18 11:21] Loading 1 new model
+[2024-04-18 11:21] 
+[2024-04-18 11:21] Processing interrupted
+[2024-04-18 11:21] Prompt executed in 68.23 seconds
+[2024-04-18 11:21] got prompt
+[2024-04-18 11:23] 100%|██████████████████████████████████████████████████████████████████████████████████| 40/40 [01:02<00:00,  1.55s/it]100%|██████████████████████████████████████████████████████████████████████████████████| 40/40 [01:02<00:00,  1.56s/it]
+[2024-04-18 11:23] Requested to load AutoencoderKL
+[2024-04-18 11:23] Loading 1 new model
+[2024-04-18 11:23] Requested to load BaseModel
+[2024-04-18 11:23] Loading 1 new model
+[2024-04-18 11:24] 100%|██████████████████████████████████████████████████████████████████████████████████| 50/50 [01:18<00:00,  1.57s/it]100%|██████████████████████████████████████████████████████████████████████████████████| 50/50 [01:18<00:00,  1.56s/it]
+[2024-04-18 11:24] Requested to load AutoencoderKL
+[2024-04-18 11:24] Loading 1 new model
+[2024-04-18 11:24] Prompt executed in 147.14 seconds
+[2024-04-18 11:24] got prompt
+[2024-04-18 11:24] Requested to load BaseModel
+[2024-04-18 11:24] Loading 1 new model
+[2024-04-18 11:25] 100%|██████████████████████| 40/40 [01:02<00:00,  1.57s/it]100%|██████████████████████| 40/40 [01:02<00:00,  1.56s/it]
+[2024-04-18 11:25] Requested to load AutoencoderKL
+[2024-04-18 11:25] Loading 1 new model
+[2024-04-18 11:25] Requested to load BaseModel
+[2024-04-18 11:25] Loading 1 new model
+[2024-04-18 11:27] 100%|██████████████████████| 50/50 [01:18<00:00,  1.58s/it]100%|██████████████████████| 50/50 [01:18<00:00,  1.57s/it]
+[2024-04-18 11:27] Requested to load AutoencoderKL
+[2024-04-18 11:27] Loading 1 new model
+[2024-04-18 11:27] Prompt executed in 147.30 seconds
+[2024-04-18 11:28] got prompt
+[2024-04-18 11:28] Requested to load BaseModel
+[2024-04-18 11:28] Loading 1 new model
+[2024-04-18 11:29] 100%|██████████████████████| 40/40 [01:01<00:00,  1.56s/it]100%|██████████████████████| 40/40 [01:01<00:00,  1.55s/it]
+[2024-04-18 11:29] Requested to load AutoencoderKL
+[2024-04-18 11:29] Loading 1 new model
+[2024-04-18 11:29] Requested to load BaseModel
+[2024-04-18 11:29] Loading 1 new model
+[2024-04-18 11:30] 100%|██████████████████████| 50/50 [01:18<00:00,  1.57s/it]100%|██████████████████████| 50/50 [01:18<00:00,  1.57s/it]
+[2024-04-18 11:30] Requested to load AutoencoderKL
+[2024-04-18 11:30] Loading 1 new model
+[2024-04-18 11:30] Prompt executed in 149.43 seconds
+[2024-04-18 11:32] got prompt
+[2024-04-18 11:32] Requested to load BaseModel
+[2024-04-18 11:32] Loading 1 new model
+[2024-04-18 11:34] 100%|██████████████████████| 40/40 [01:01<00:00,  1.55s/it]100%|██████████████████████| 40/40 [01:01<00:00,  1.54s/it]
+[2024-04-18 11:34] Requested to load AutoencoderKL
+[2024-04-18 11:34] Loading 1 new model
+[2024-04-18 11:34] Requested to load BaseModel
+[2024-04-18 11:34] Loading 1 new model
+[2024-04-18 11:35] 100%|██████████████████████| 50/50 [01:18<00:00,  1.58s/it]100%|██████████████████████| 50/50 [01:18<00:00,  1.56s/it]
+[2024-04-18 11:35] Requested to load AutoencoderKL
+[2024-04-18 11:35] Loading 1 new model
+[2024-04-18 11:35] Prompt executed in 147.05 seconds
+[2024-04-18 11:40] got prompt
+[2024-04-18 11:40] Prompt executed in 1.29 seconds
+[2024-04-18 11:41] got prompt
+[2024-04-18 11:41] Requested to load BaseModel
+[2024-04-18 11:41] Loading 1 new model
+[2024-04-18 11:42] 100%|██████████████████████| 40/40 [01:01<00:00,  1.55s/it]100%|██████████████████████| 40/40 [01:01<00:00,  1.54s/it]
+[2024-04-18 11:42] Requested to load AutoencoderKL
+[2024-04-18 11:42] Loading 1 new model
+[2024-04-18 11:42] Requested to load BaseModel
+[2024-04-18 11:42] Loading 1 new model
+[2024-04-18 11:44] 100%|██████████████████████| 50/50 [01:18<00:00,  1.57s/it]100%|██████████████████████| 50/50 [01:18<00:00,  1.56s/it]
+[2024-04-18 11:44] Requested to load AutoencoderKL
+[2024-04-18 11:44] Loading 1 new model
+[2024-04-18 11:44] Prompt executed in 145.76 seconds
